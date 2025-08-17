@@ -1,0 +1,44 @@
+<div class="container">
+
+    <div class="header">
+        <!-- Área de boas-vindas -->
+        <div class="welcome-area">
+            <p class="greeting">Bem vindo!</p>
+            <p class="user-name">Heliandro de mello Lavor</p>
+        </div>
+        
+        <!-- Linha ondulada -->
+        <div class="wave-line">
+            <svg viewBox="0 0 800 100" preserveAspectRatio="none">
+            <path d="M0,50 C200,20 400,80 800,50" stroke="black" fill="transparent"></path>
+            </svg>
+        </div>
+    </div>
+  
+  <!-- Área dos quadrados/botões -->
+  <div class="squares-area">
+    <!-- Quadrado 1 - Produtos -->
+    <div class="square">
+      <div class="content" (click)="redirecionarParaJornadaProdutos()">
+        <div class="icon">
+          <!-- Ícone de Produtos (caixa/pacote) -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+        </div>
+        <p class="label">Produtos</p>
+      </div>
+    </div>
+    
+    <!-- Quadrado 2 - Vazio -->
+    <div class="square">
+      <div class="content"></div>
+    </div>
+    
+    <!-- Quadrado 3 - Vazio -->
+    <div class="square">
+      <div class="content"></div>
+    </div>
+  </div>
+</div>
